@@ -26,6 +26,7 @@ public class ModCreativeModTabs {
                         output.accept(Items.DIAMOND);
                         output.accept(ModBlocks.SAPPHIRE_BLOCK.get());
                         output.accept(ModBlocks.SOUND_BLOCK.get());
+                        output.accept(ModItems.PINE_CONE.get());
                     })
             .build());
 
