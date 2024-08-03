@@ -1,5 +1,6 @@
 package com.gmw.basedmod;
 
+import com.gmw.basedmod.block.ModBlocks;
 import com.gmw.basedmod.item.ModCreativeModTabs;
 import com.gmw.basedmod.item.ModItems;
 import com.mojang.logging.LogUtils;
@@ -36,7 +37,7 @@ public class BasedMod
 
         ModItems.register(modEventBus);
         ModCreativeModTabs.register(modEventBus);
-
+        ModBlocks.register(modEventBus);
         modEventBus.addListener(this::commonSetup);
 
         MinecraftForge.EVENT_BUS.register(this);

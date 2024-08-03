@@ -1,6 +1,7 @@
 package com.gmw.basedmod.item;
 
 import com.gmw.basedmod.BasedMod;
+import com.gmw.basedmod.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -23,6 +24,7 @@ public class ModCreativeModTabs {
                         output.accept(ModItems.RAW_SAPPHIRE.get());
 
                         output.accept(Items.DIAMOND);
+                        output.accept(ModBlocks.SAPPHIRE_BLOCK.get());
                     })
             .build());
 
